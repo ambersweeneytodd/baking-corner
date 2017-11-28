@@ -114,7 +114,9 @@ img{
   }
 }
 .black {
-  color: black
+  color: black;
+  font-weight: bold;
+  text-align: center;
 }
 ///////////////////////////////////////////////////////////////////////
 #top {
