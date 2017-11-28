@@ -40,8 +40,7 @@ h1, h2 {
   text-align: center;
   color: black;
   font-size: 35px;
-}
-a{
+}{
   text-align: center;
 }
 table, th, td{
@@ -73,6 +72,49 @@ img{
     left: 0px;
     top: 0px;
     z-index: -1;
+}
+{
+  box-sizing: border-box;
+}
+.menu {
+  float:left;
+  width:20%;
+}
+.menuitem {
+  padding:8px;
+  margin-top:7px;
+  border-bottom:1px solid #f1f1f1;
+}
+.main {
+  float:left;
+  width:60%;
+  padding:0 20px;
+}
+.right {
+  background-color:lightblue;
+  float:left;
+  width:20%;
+  padding:10px 15px;
+  margin-top:7px;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width:80%;
+  }
+  .right {
+    width:100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+}
+.black {
+  color: black
 }
 ///////////////////////////////////////////////////////////////////////
 #top {
